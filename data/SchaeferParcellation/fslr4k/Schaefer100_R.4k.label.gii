@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[Invalid]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/media/gshafiei/data2/Projects/HCP_MEG/parcellationData/common/Sphere.4k.R.surf.gii:
+/home/language/jansch/workbench/bin_linux64/../exe_linux64/wb_command -surface-create-sphere 4000 Sphere.4k.R.surf.gii
+
+/media/gshafiei/data2/Projects/HCP_MEG/parcellationData/common/Conte69.R.midthickness.4k_fs_LR.surf.gii:
+/home/language/jansch/workbench/bin_linux64/../exe_linux64/wb_command -surface-create-sphere 4000 Sphere.4k.R.surf.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.5.0
+Qt Compiled Version: 5.9.5
+Qt Runtime Version: 5.9.5
+Commit: unknown
+Commit Date: unknown
+Compiled with OpenMP: YES
+Compiler: c++ (/usr/lib/ccache)
+Compiler Version: 7.3.0
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -label-resample /media/gshafiei/data2/Projects/HCP_MEG/parcellationData/common/Schaefer2018_100Parcels_7Networks_order_rh.label.gii /media/gshafiei/data2/Projects/HCP_MEG/parcellationData/common/R.sphere.32k_fs_LR.surf.gii /media/gshafiei/data2/Projects/HCP_MEG/parcellationData/common/Sphere.4k.R.surf.gii ADAP_BARY_AREA /media/gshafiei/data2/Projects/HCP_MEG/parcellationData/parcellation/Schaefer100_R.4k.label.gii -area-surfs /media/gshafiei/data2/Projects/HCP_MEG/parcellationData/common/Conte69_Atlas/Conte69.R.midthickness.32k_fs_LR.surf.gii /media/gshafiei/data2/Projects/HCP_MEG/parcellationData/common/Conte69.R.midthickness.4k_fs_LR.surf.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/media/gshafiei/data2/Projects/HCP_MEG/parcellationData]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="4002"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztm+lS20AQhP1O2OEyEI4AgQRsThOO2MD7P0O0FU/VpGvOXTnkR7bqqzi73e2VNJKstXkfDAYHHXsdi47NjmnHzeB3G3Y8dow7Jh3vHfcCNe1d4A3YCDCsfH9qa0uGS3AbaxvPac34CD8dj2yjY1fjifqwTvrQYl3VaKxxbYz3rSl9+Fqr1cJ34IBxobBYMksyV/aTNy9vPpQvXWvuWYbm9zJoHrX+WaV35ngl38zw8THeJA8eO2zWcY5qIzqpRce1sZaG96AHoNTJSZCDBFb9LIw54fmN5zhCdaR5oxmW1/N7Xsu/Cl/Gk9muiDZTI61YNdYn3jw+G+wpfE3wCtD9rHZeOJc+ti2bgdu4aq+0XzWPdSwkT0Yf1Xo6r2Y8zUXF2IUwxvte2f/pNdVquX/sB/hiMF1S6m1XoRy/IwXMmQbnJGVgVh85Gb+Uc1DhP2Jey695vWtEjQd9nvZzhTaik9hzxvYEjdSv3RcseN3+EDgzeASmAucO2wLjZd5zAMmPWdo2WtuG7yNtn+WXMp4TGdr2tnppv2d8eMwiPssT0fNjWKv16uzZGd92xlbBWOFbgCdGWXu8EfgpIGXh+xfvNVC8L0Eod9K4jdYca7Ja51E795cKPe7Lvj21+qhOqjWpHv8GeC7Q+XE9+PN8kdYsjoNsAtL6Pa5VlLXKrSA8OzIfaVswrzVjK+mN+jNeXI+K+LIe1EseS4t6S8e1luYBNNLaHB+TalCrT612I+B5QBx2XDmUz2n8M4+UcxzIuTJyeJ3VZGT8/PlOqnPPS3he7XlX8lnPxzUe7fxv0bZq9oUxvn6A1xnej30n0Kddm3iNfRIYBaBnK+0cIqyMw2CO5ONEM9CHGdq1wOMsoUXfqj1FT+eep+Na0mvP3ngtlIiM14xl4NdFay2NsyOAn8Wz6wnnS5+1BhDNGLOscdKPGQW6FmX9Zb/gepfl4/tTWiur8aAvoj8KaqW6sMYJa+wjOBW4M5CezwleN7TvvOcmK2cnmKNlaH7aTsuP5zh6iahX2s+eT/KgL6I/rdDfJXS7AZ2n0WrRGpP6rRwOrgshl0vmDrxdKkTbRJlLdL2Kt9qcbAZto5Sh7Vv0SvvKOibWfm7xeFrSR3QfwbxiTOqfQ/9cAb9L0ZgEKL9zW3OI5FCWRcnynl0yc+9rH3hZrRkt/qiXZ4ySnlHSY+l53YwMLdaYpJNqcaT0tyCdA9g3FF5TXWvP7BrrS6RzhI6796xv5W/2kBFZc1ilv29fxkPHIqIfOnpJJ2kjGu266o2vkvIdxLqBtg/5+vhGIIcjfb/RmpHxS96W97TeO+Ph/ZpeI6PNwP82gH+ngH838BYYw77M9wqR+1rkPkFabJmcmtbqp4z/7d9viyC3Bvw76j6etb2cSMatkRH1Sxmed868fP+typf1oFbTzwQdMkvoase1Makf+2bGGNWsVdeR88LLeXVYOP5IRsv7a95V+Gh9OatHWrQRnbU27o3XUn5Trq1jlvv8kwD+Zsn73d5Eycr8BrA1o8WveT2/5dO8ngd9Gb2lw9/2EhmNNa6NSf1Wn/S6/PsLdvQkrw==</Data>
+</DataArray>
+</GIFTI>
