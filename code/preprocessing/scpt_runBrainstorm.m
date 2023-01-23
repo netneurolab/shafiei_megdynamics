@@ -12,10 +12,12 @@ badChannels = channels.BadChannels;
 addpath(genpath('/usr/local/brainstorm3/'));
 
 % Run Brainstorm
-hcp_meg_process_connectivity(hcp_dir, subjList, badChannels, reports_dir) 
+fcn_hcp_meg_process_rest(hcp_dir, subjList, badChannels, reports_dir) 
 
 %% hctsa on MEG: parcellate
-% addpath(genpath('/home/gshafiei/data1/Projects/HCP_Reinder/matlabcode'));
+% requires cifti-matlab
+% (https://github.com/Washington-University/cifti-matlab)
+% addpath(genpath('/home/gshafiei/data1/Projects/packages/cifti-matlab'));
 hcp_dir = '/path/to/megdata/and/results/';
 datapath = strcat(hcp_dir, 'brainstormResults/vertexTimeSeries');
 tspath = strcat(hcp_dir, 'parcellated/HCP_MEG_TimeSeries/Schaefer100/');

@@ -199,7 +199,6 @@ results = pyls.behavioral_pls(X, Y, n_boot=nspinsall, n_perm=nspinsall,
 pyls.save_results(outpath + 'pls/plsresults_schaefer100.hdf5', results)
 
 train, test = pls_cv_distance_dependent_par(X, Y, coords=coor)
-lv = 0  # latent variable
 np.save(outpath + 'pls/pls_train_schaefer100.npy', train)
 np.save(outpath + 'pls/pls_test_schaefer100.npy', test)
 
@@ -214,10 +213,10 @@ plt.savefig(outpath + 'pls/scorecorr_pls_schaefer100.svg',
 
 # visualize pls results
 # covariance explained
+lv = 0  # latent variable
 cv = results['singvals']**2 / np.sum(results['singvals']**2)
 null_singvals = results['permres']['permsingvals']
 cv_spins = null_singvals**2 / sum(null_singvals**2)
-p = (1+sum(null_singvals[lv, :] > results['singvals'][lv]))/(1+nspinsall)
 
 myplot = sns.scatterplot(np.arange(len(cv[:10])), cv[:10]*100,
                          facecolors='darkslategrey', s=70)

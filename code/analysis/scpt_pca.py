@@ -213,7 +213,7 @@ X = avg_sharedTS_pca.T
 Y = avg_snr
 rho = np.zeros((X.shape[1], 1))
 for i in range(X.shape[1]):
-    tmpcorr = scipy.stats.pearsonr(X[:, i], Y)  # or pearsonr
+    tmpcorr = scipy.stats.pearsonr(X[:, i], Y)
     rho[i, 0] = tmpcorr[0]
 
 surf_path = (gitrepo_dir + 'data/surfaces/')
@@ -344,7 +344,7 @@ Y = node_score_snr[:, :1]
 rho = np.zeros((X.shape[1], Y.shape[1]))
 for i in range(X.shape[1]):
     for j in range(Y.shape[1]):
-        tmpcorr = scipy.stats.pearsonr(X[:, i], Y[:, j])  # or pearsonr
+        tmpcorr = scipy.stats.pearsonr(X[:, i], Y[:, j])
         rho[i, j] = tmpcorr[0]
 
 surf_path = (gitrepo_dir + 'data/surfaces/')
@@ -590,7 +590,7 @@ Y = node_score_noise_realigned[:, np.newaxis]
 rho = np.zeros((X.shape[1], Y.shape[1]))
 for i in range(X.shape[1]):
     for j in range(Y.shape[1]):
-        tmpcorr = scipy.stats.pearsonr(X[:, i], Y[:, j])  # or pearsonr
+        tmpcorr = scipy.stats.pearsonr(X[:, i], Y[:, j])
         rho[i, j] = tmpcorr[0]
 
 # save to csv
