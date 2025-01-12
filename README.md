@@ -1,5 +1,7 @@
 # Neurophysiological signatures of cortical micro-architecture
-This repository contains processing scripts and data in support of the preprint "Neurophysiological signatures of cortical micro-architecture" on biorxiv. [doi: https://doi.org/10.1101/2023.01.23.525101](https://doi.org/10.1101/2023.01.23.525101)
+This repository contains processing scripts and data in support of the paper:
+
+Shafiei, G., Fulcher, B. D., Voytek, B., Satterthwaite, T. D., Baillet, S., & Misic, B. (2023). Neurophysiological signatures of cortical micro-architecture. _Nature Communications_, _14_(1), 6000. [https://doi.org/10.1038/s41467-023-41689-6](https://doi.org/10.1038/s41467-023-41689-6)
 
 ## `code`
 The [code](code/) folder contains all the code used to run the analyses and generate the figures.
